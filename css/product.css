@@ -1,0 +1,266 @@
+
+/* banner */
+
+.banner{
+    width: 100%;
+    height: 360px;
+    color: #fff;
+    background: #38468B url(../imgs/banner3.jpg) center center no-repeat;
+}
+.banner_paring h3{
+    padding-top: 60px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.banner_paring  p{
+    font-size: 20px;
+    margin-bottom: 34px;
+}
+.banner_paring  ul li {
+    float: left;
+    width: 140px;
+    margin-right: 24px;
+}
+.banner_code {
+    height: 140px;
+    width: 140px;
+}
+.banner_paring .erwm .banner_code:nth-child(1){
+    display: none;
+}
+.banner_paring li  p {
+    line-height: 46px;
+    font-size: 16px;
+    text-align: center;
+
+}
+.banner_paring  ul .banner_btns {
+    margin-left: 16px;
+    width: 162px;
+    padding-top: 5px;
+}
+.banner_btns a {
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    opacity: 0.9;
+    color:#fff;
+    font-size: 16px;
+
+}
+
+
+.banner_btns a.on,.banner_btns a:hover{
+    background-color:#FFF;
+    opacity: .7;
+    color: #5972f0; 
+}
+/* banner结束 */
+/* 中间板块1 */
+.h700 {
+    height: 700px;
+    background-color: #fff;
+}
+.intro_p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.h700 h4 a {
+    display: block;
+    position: absolute;
+    color: #333;
+    font-size: 20px;
+    bottom: 140px;
+    left: 30px;
+    font-weight: 700;
+}
+.h700 p {
+    color: #656565;
+}
+.h700 .fl_r {
+    position: absolute;
+    margin-right: 40px;
+    right: 300px;
+    float:right;
+}
+.introduce_item1 {
+    padding-top: 74px;
+    border-bottom: 1px solid #ddd;
+}
+.intro1_left {
+    width: 428px;
+    padding: 128px 0 0 60px;
+    float:left;
+}
+.cur{
+    display: block;
+    color:#5972f0;
+    box-shadow: 0 0 10px rgba(56, 70, 139, 0.2);
+  }
+.intro1_left  a .cur{
+  color:#5972f0;
+}
+.intro1_left > a {
+    font-size: 20px;
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.intro1_left > a:hover {
+    box-shadow: 0 0 10px rgba(56, 70, 139, 0.2);
+    color:#5972f0;
+}
+.intro1_right {
+    width: 600px;
+    height: 534px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.intro1_right:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+.intro1_info {
+    padding: 36px 30px 0;
+}
+.intro1_info h4 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+
+/* 中间板块2 */
+.introduce_item2 {
+    padding-top: 90px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.intro2_left {
+    padding-left: 54px;
+    width: 526px;
+    float: left;
+}
+.intro2_left h4{
+    padding-top: 106px;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.intro2_left h4:hover{
+    color:#5972f0;
+}
+.intro2_info {
+    height: 42px;
+    padding-top: 26px; position: relative;
+}
+
+.intro2_info img {
+
+    width: 42px;
+    height: 42px;
+    display: block;
+    border-radius: 50%;
+    background:url("../imgs/cat_03.jpg") no-repeat;
+    margin-right: 10px;
+
+}
+.intro2_info img:hover{
+    border: 1px solid #fff;
+    width: 43px;
+    height: 43px;
+    display: block;
+    border-radius: 50%;
+}
+
+
+.intro2_info .author_name{
+    position: absolute;
+    left: 50px;
+    top: 24px;
+    line-height: 42px;
+    overflow: hidden;
+    color:#808080;
+}
+.intro2_info .author_name:hover{
+    color:#5972f0;
+}
+.ta_right {
+    text-align: right;
+}
+
+/* 中间板块结束 */
+
+/*  more start */
+ .more{
+     height: 443px;
+     padding-top: 70px;
+     position: relative;
+ }
+ .more_cont{
+    width: 350px;
+    height: 370px;
+    margin: 0 auto;
+
+}
+.more_cont h3{
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+.more_cont h3 a:hover{
+
+    font-weight: 700;
+    color: #5972f0;
+}
+
+.pl{
+    float: left;
+}
+.pr{
+    float: right;
+}
+/* 
+.banner_code1 {
+    height: 140px;
+    width: 140px;
+   
+} */
+.more_cont p{
+   font-size: 16px;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+.down{
+   position: absolute;
+   width: 150px;
+   height: 54px;
+   background-color: #429afa;
+   bottom:73px;
+   margin-left: 100px;
+}
+.down a{
+    display: block;
+    color:#fff;
+    text-align: center;
+    line-height: 54px;
+
+}
+
+.down a:hover{
+    background-color:rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+
+
+/*  more end */

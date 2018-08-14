@@ -1,0 +1,87 @@
+/* 基本样式 */
+
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, select, textarea, button, th, td{  
+    padding: 0; margin: 0; 
+     font-family:"Microsoft YaHei";
+    color: #333333; box-sizing: border-box; }  
+*{ margin:0; padding:0; box-sizing: border-box; }  
+ a, a:hover, a:active, a:focus, a:link, a:visited{ text-decoration: none; }  
+ ul li{ list-style: none; }  
+ input{ /*1.清除文本框获取焦点时默认的边框阴影*/ outline: none; /*2.去除边框*/ border: none; }  
+.clearfix { *zoom:1; } 
+
+
+ .clearfix:after {content:""; display:table; /* height:0; visibility:hidden; */ clear:both; } 
+ img{ width: 100%; border:none; vertical-align: middle; }
+.fl_l{ float: left; }
+.fl_r{ float: right; }
+
+
+/* 定义字体图标 */
+@font-face { font-family: 'iconfont'; src: url('../font/iconfont.eot'); src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg'); }
+.iconfont{ font-family:"iconfont" !important; }
+html,body{ width: 100%; } 
+/* 公共头部导航栏样式开始*/
+
+.toTop{
+    position: fixed;
+    right: 0.1rem;
+    bottom: 0.2rem;
+   z-index: 99999;
+    color: #5972f0;
+}
+.toTop .icon-xiangshangjiantou1 {
+     font-size: 0.8rem !important;
+}
+.head { width:100%; padding:0 2%; text-align: center; z-index: 999; }
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+/* 大屏幕导航 */
+.nav{ width:96%; margin:0 auto; line-height: 1rem; position: relative;  }
+.nav_l{ width:1.6rem; padding-left:2%; }
+.nav_l a img { width:100%; }
+.nav_r{ position: absolute; top:-0.2rem; right:0; }
+.nav_r ul li{ float: left; padding: 0 0.1rem; }
+.nav_r ul li a{ text-decoration: none; color:#333; font-size:0.2rem; } 
+.nav_r .default a{ color: #5972f0; }
+
+/* 公共头部导航栏样式 结束*/
+
+/* 公共底部开始*/
+footer{ width:100%; background-color:#353F47; }
+.footer{ width:96%; padding-top: 0.42rem; margin: 0 auto; background-color: #353F47; }
+.footer_top{ border-bottom: 1px solid #46545e; }
+/* 底部左上部分 */
+
+
+.footer_l>a { width:1.6rem; margin-top: 0; }
+.footer_l a img{ width: 100%; display: block; }
+.footer_l p a{ color:#5e6c79; } 
+/* 底部右上部分 */
+/* 
+.footer_info{ padding: 0 3.5%; float:left; text-align: center; } */
+.footer_info h4{ font-weight: normal; }
+.footer_info .h4{ margin-top: -0.8rem; }
+.footer_info h4 a{ font-size: 0.16rem; line-height: 0.4rem; color: #fff; }
+.footer_r {
+  float:right;
+  /* padding:0 1%; */
+  margin-right: 0.1rem;
+}
+.footer_r .footer_info ul li { height: 0.4rem; line-height: 0.4rem; font-size: 0.16rem; }
+.footer_r ul li a{ color:#5e6c79; display: inline-block; } 
+.footer_r .footer_info  .icon{ margin: 0 auto; text-align: right; }
+.footer_r .footer_info  .icon li{ float: left; }
+.footer_info .icon li a{ padding: 0 10%; font-size: 0.3rem; }
+.footer_info .icon{ margin-left: 1.08rem; margin-top: 0.03rem; }
+/*  底部左下部分*/
+.footer_bottom { background-color: #353F47; text-align: center; }
+.footer_bl ul li{ float: left;  line-height: 0.5rem; margin-left: 0.06rem; }
+.footer_bl ul li a{ color:#5e6c7a; font-size: 0.12rem; }
+
+
+/* 公共底部结束*/

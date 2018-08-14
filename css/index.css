@@ -1,0 +1,310 @@
+/*home start*/
+/* index-common */
+.h890 {
+    height: 890px;
+}
+.h890 h3 {
+    color: #333;
+}
+.h890 p {
+    color: #656565;
+}
+/* head + banner */
+.head {
+    background:  url("../imgs/home_banner (1).jpg") center center no-repeat;   
+}
+a img {
+    z-index: 999;
+    display: block;
+    margin-top: 20px; 
+
+}
+.nav_r ul li a {
+    color: #fff;
+}
+
+.banner_home{
+    z-index: 99;
+}
+
+.banner_paring {
+    padding-top: 260px;
+    font-size: 50px;
+   
+}
+.banner_paring h2 {
+    color: #fff;
+   
+}
+
+.banner_paring p {
+    font-size: 24px;
+    margin-top: 14px;
+    color: #fff;
+    padding-left: 0px;
+}
+
+.banner_paring a {
+    margin: 70px auto;
+    display: block;
+    width: 280px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    opacity: .99;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    color: #fff;
+    z-index:98;
+}
+
+.banner_paring a:hover{
+    background-color: #fff; 
+    color:#000;
+    font-weight: 700;
+    opacity: .9; 
+}
+/* 半透明的遮罩层 */  
+#overlay {  
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:890px;
+    background:#000;
+
+    background: rgba(0,0,0,.7);
+}  
+
+/* 轮播图边框 */
+.ft-carousel{
+    border: 14px solid #efefef;
+    
+}
+
+.carousel-item{line-height: 336px;color: #fff;font-family:  Arial Black}
+
+.ft-carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ft-carousel .carousel-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.ft-carousel .carousel-inner .carousel-item {
+    float: left;
+    height: 100%;
+}
+.ft-carousel .carousel-item img {
+    width: 100%;
+}
+.ft-carousel .carousel-indicators {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+}
+.ft-carousel .carousel-indicators span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    margin: 4px 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ft-carousel .carousel-indicators span.active {
+    background-color: #de3a3a;
+}
+.ft-carousel .carousel-btn {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 45px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.ft-carousel .carousel-prev-btn {
+    left: 0;
+    background: url(../imgs/prev.png) no-repeat;
+}
+.ft-carousel .carousel-next-btn {
+    right: 0;
+    background: url(../imgs/next.png) no-repeat;
+}
+/* 产品介绍 */
+.introduce {
+    background-color: #fff;
+    padding-top:132px;
+    border: 1px solid #ddd;
+    height: 658px;
+}
+.introduce_left,
+.introduce_right {
+    height: 418px;
+    width: 600px;
+    position: relative;
+}
+.introduce_right{
+    float: right;
+}
+.introduce_left h3 {
+    display: block;
+    height: 92px;
+    font-weight: normal;
+    font-size: 24px;
+}
+.introduce_left p {
+    font-size: 16px;
+    width: 542px;
+    line-height: 30px;
+}
+.indro_btns {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.indro_btns a {
+    border: 2px solid #5972f0;
+    height: 54px;
+    width: 150px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 54px;
+    color: #fff;
+    background-color: #5971EF;
+}
+.indro_btns a:nth-of-type(2){
+    background-color: #fff;
+    color: #5972f0;
+}
+.indro_btns a:nth-of-type(2):hover{
+    background-color:#5972f0;
+    color: #fff;
+}
+.indro_btns a:hover {
+    background-color: #5972f0;
+    color: #fff;    
+}
+.introBtn01 {
+    margin-right: 40px;
+}
+
+/* 产品服务&新闻中心标题样式 */
+
+.titles {
+    padding-top: 100px;
+    position: relative;
+}
+.titles .title_cn {
+    font-size: 30px;
+    display: inline-block;
+    line-height: 35px;
+    width: 140px;
+    font-weight: normal;
+    color: #333;
+    padding-left: 3px;
+}
+
+.titles .title_english {
+    color: #999;
+}
+.titles::before {
+    content:"";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+/* 产品服务内容 */
+.product_service{
+
+    border-bottom: 1px solid #ddd;
+}
+.service_lists {
+    margin-top: 86px;
+}
+.service_lists li{
+    width: 370px;
+    height: 294px;
+    float: left;
+    margin-right: 45px;
+}
+.service_lists li:nth-of-type(3n) {
+    margin-right: 0;
+}
+.service_lists li img {
+    width: 100%;
+}
+
+.service_lists li h3 {
+    line-height: 86px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* 新闻中心内容 */
+.news_lists{
+    margin-top: 180px;
+}
+.news_lists li{
+    width: 400px;
+    height: 330px;
+    float: left;
+
+}
+.news_lists h3{
+    text-align: center;
+    font-weight: blod;
+    font-size: 20px;
+    color: #333;
+
+}
+.news_lists h5{
+    text-align: center;
+    font-size: 18px;
+    color: #5972f0;
+    line-height: 46px;
+}
+.news_lists p{
+    font-size: 16px;
+    width: 340px;
+    text-align: left;
+    color: #666;
+    line-height: 36px;
+    margin-left: 30px;
+    margin-bottom: 34px;
+}
+.news_lists h5:hover{
+    color: #333;
+}
+.news_lists a {
+    border: 2px solid #5972f0;
+    height: 54px;
+    width: 150px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    line-height: 54px;
+    color: #5972f0;
+    padding-bottom: 0;
+    margin-left: 30px;
+}
+.news_lists a:hover {
+    background-color: #5971EF;
+    color: #fff;
+    
+}
+/* 新闻中心 结束*/

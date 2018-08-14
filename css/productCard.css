@@ -1,0 +1,155 @@
+/* ..... */
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.proCard {
+    width: 100%;
+}
+
+.proCard img {
+    display: block;
+    width: 100%;
+}
+
+.system {
+    width: 100%;
+}
+
+.system .systemInfo {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.system .systemInfo a {
+    display: inline-block;
+    width: 32%;
+    padding: 40px 0 0px;
+    text-align: center;
+}
+
+.system .systemInfo a span {
+    display: inline-block;
+    text-align: center;
+    color: #999;
+    font-size: 19px;
+}
+
+.system .systemInfo a.active span {
+    color: #333;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+.cardDiscern,
+.cardParking,
+.doorRke {
+    width: 100%;
+    padding-top: 10px;
+    background: #f5f5f5;
+}
+
+.cardDiscern ul,
+.cardParking ul,
+.doorRke ul {
+    width: 64.5%;
+    margin: 0 auto;
+}
+
+.cardDiscern ul li,
+.cardParking ul li,
+.doorRke ul li {
+    width: 23.25%;
+    display: inline-block;
+    margin: 0 0.75%;
+    margin-top: 24px;
+}
+
+.cardDiscern ul li a img,
+.cardParking ul li a img,
+.doorRke ul li a img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    border: 0;
+}
+
+.cardDiscern ul li a p,
+.cardParking ul li a p,
+.doorRke ul li a p {
+    width: 100%;
+    margin-top: -4px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fff;
+}
+/* .exit_mask {
+    overflow-y:auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    background: rgba(0, 0, 0, .4);
+    display: none; 
+    
+} */
+/* 大图样式 */
+.systemCont{
+    position: relative;
+}
+.systemCont form{
+    display: none;
+}
+.systemCont form:first-child{
+    display: block;
+}
+ .bigPic {
+    position: absolute;
+    top: 40px;
+    left: 24%;
+    width: 100%;
+    z-index: 998;
+}
+
+ .closePic{
+    font-size: 60px;
+    position: fixed;
+    top: 22px;
+    right: 18.75%;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+}
+/* 分页 */
+
+.page {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 66px;
+    color: #666;
+    background-color: #f5f5f5;
+}
+
+.page ul {
+    width: 18.75%;
+    margin: 0 auto;
+}
+
+.page ul li {
+    display: inline-block;
+    padding: 6px 15px;
+    margin: 0px 3px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.page ul li.on {
+    background-color: #0088fe;
+    color: #fff;
+}

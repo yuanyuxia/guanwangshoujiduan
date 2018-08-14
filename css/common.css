@@ -1,0 +1,183 @@
+
+/*公共头部和底部 */
+body{
+    width: 100%;
+   
+}
+/* 版心 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部样式 */
+
+.head {
+     color: #fff;
+     text-align: center; 
+     z-index: 999; 
+}
+
+/* 导航栏 */
+.nav{
+    height: 100px;
+    width: 1200px;  
+    margin: 0 auto;  
+    left: 360px;  
+    z-index: 10000; 
+}
+.nav_l{
+     float: left;
+     width: 220px;
+     height: 100px;
+}
+.nav .nav_r{
+     float: right;
+     
+}
+.nav_r .default a{
+    color: #5972f0;
+}
+.nav_r ul li {
+    float: left;
+    width: 106px;
+    margin-right: 0;
+    text-align: right;
+    position: relative;
+}
+.nav_r  .lw{
+margin-left:18px ;
+}
+.nav_r ul li a{
+    display: block;
+    line-height:100px ;
+    font-size: 16px;
+    text-align: center;
+}
+.nav .nav_r a:hover{ 
+    color: #5972f0;
+}
+
+/* 头部样式结束 */
+
+
+
+
+/* 底部样式开始 */
+footer{
+    width: 100%;
+    background-color:#353F47;
+
+}
+.footer{
+    width: 100%;
+    height: 333px;
+    padding-top: 84px;
+    background-color:#353F47;
+
+}
+.footer_top{
+    width: 100%;
+    height: 238px;
+    border-bottom: 1px solid #46545e;
+}
+/* 底部左上部分 */
+.footer_l{
+    width: 300px;
+    height: 236px;
+    float: left;
+}
+.footer_l p{
+    font-size:14px;
+    padding-left: 44px;
+    margin-top: 14px;
+}
+ p a{
+    color:#5e6c79;
+}
+p a:hover{
+    color: #fff;
+}
+/* 底部右上部分 */
+.footer_r{
+    width: 900px;
+    height: 236px;
+    float:right;
+
+}
+ .footer_info{
+    width: 300px;
+    float: left;
+}
+
+h4 a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+.footer_r ul li a{ 
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    color:#5e6c79;
+    padding-left: 120px;
+}
+
+.footer_r ul li a:hover{
+    color: #fff;
+}
+/* 底部下左部分 */
+.footer_bl{
+   
+    float: left;
+}
+.footer_bl ul{
+    width: 100%;
+    line-height: 24px;
+}
+.footer_bl ul li{
+    margin-right: 16px;
+    float: left;
+    height: 94px;
+    line-height: 94px;
+}
+.footer_bl ul li a{
+    color:#5e6c7a;
+}
+.footer_bl ul li a:hover{
+    color: #fff;
+}
+.footer_r ul li a{
+    display: inline-block;
+}
+.footer_info .icon li{
+    float: left;
+}
+.footer_info .icon li a{
+    padding-left: 10px;
+    font-size: 24px !important;
+}
+.footer_info .icon{
+    margin-left: 108px;
+    margin-top: 3px;
+}
+.footer_br{
+    width: 50%;
+    height: 94px;
+    float: right;
+
+}
+.footer_br p{
+    float: right;
+    line-height: 94px;
+    color: rgba(94, 108, 122, 0.4);
+}
+.mt{
+    text-align: center;
+}
+.mt a{
+    color: #fff;
+   
+
+}
